@@ -1,0 +1,57 @@
+body {
+	background-color: rgb(32,32,32);
+	font-family: "Audiowide", Times, serif
+}
+
+.page {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  display: inline-block;
+  text-align: center;
+}
+
+.square {
+  display: inline-block;
+}
+
+.titlebar {
+	width: 100%;
+  color: #008000;
+	padding: 128px 0px;
+  background: linear-gradient(90deg, #696E8F, #C40018);
+  text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.title {
+  font-size: 56px;
+  padding: 4px;
+  margin: 4px;
+  color: #44D644;
+}
+
+.subtitle {
+  font-size: 32px;
+	color: yellow;
+}
+
+.header {
+  border: solid 1px #202020;
+  text-align: center;
+  padding: 4px;
+  margin: 4px;
+  border-radius: 4px;
+  background-color: #000000;
+  color: #E2DC45;
+  font-size: 18px;
+  background: linear-gradient(180deg, #970000, #9C4A24);
+  text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.canvas {
+  padding: 4px;
+  margin: 4px;
+  border-radius: 32px;
+}
