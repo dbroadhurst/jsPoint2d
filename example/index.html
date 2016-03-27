@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>jsPoint2d</title>
+
+    <script src="../jsPoint2d.js"></script>
+    <script src="rig.js"></script>
+    <link rel="stylesheet" type="text/css" href="rig.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+
+  </head>
+
+  <body>
+
+    <div class="page">
+
+      <div class="center">
+
+        <div class="titlebar">
+          <p class="title">jsPoint2d</p>
+          <p class="subtitle">2d Vector and Matrix Transforms</p>
+        </div>
+
+        <div class="square">
+          <canvas id="translate2d" class="canvas" width="320px" height="200px"></canvas>
+          <div class="header">Translate 2d</div>
+        </div>
+
+        <div class="square">
+          <canvas id="rotate2d" class="canvas" width="320px" height="200px"></canvas>
+          <div class="header">Rotate 2d</div>
+        </div>
+
+        <div class="square">
+          <canvas id="scale2d" class="canvas" width="320px" height="200px"></canvas>
+          <div class="header">Scale 2d</div>
+        </div>
+
+        <div class="square">
+          <canvas id="srt2d" class="canvas" width="320px" height="200px"></canvas>
+          <div class="header">Scale, Rotate and Translate 2d</div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function(event) {
+        rig.init();
+      });
+    </script>
+  </body>
+
+</html>
